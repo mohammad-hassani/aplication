@@ -1,0 +1,457 @@
+body{
+    font-family: Vazir, sans-serif;
+    width: 30rem;
+    height: 170rem;
+    margin-right: 30rem;
+    margin-left: 30rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background-color: #e6e6e6;
+}
+
+.title
+{
+background-color:rgb(79, 79, 255);
+height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title-text
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.title h3
+{
+    color: white;
+
+}
+
+.star-icon
+{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.7rem;
+    margin-left: 0.5rem;
+}
+.share-top
+{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+.back-top
+{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.borg-img
+{
+    width: 25rem;
+    border-radius: 3rem;
+    margin: 2rem;
+    margin-bottom: 0rem;
+    border: 5px solid rgb(224, 224, 224);
+}
+.border-rad
+{
+    height: 17rem;
+    border-radius: 2rem;
+}
+.slide
+{
+    margin-left: 10rem;
+    margin-right: 10rem;
+   display: flex;
+    height: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 0.4rem;
+    width: 0.4rem;
+    margin: 0 1px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot-div
+{
+    margin-top: 0rem;
+}
+.active, .dot:hover {
+    background-color: blue;
+}
+
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.full-data
+{
+    float: right;
+}
+.data
+{
+    display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+.price
+{
+    font-size: 1.5rem;
+    float: right;
+    display: flex;
+    color: rgb(79, 79, 255);
+    margin-right: 2rem;
+}
+.location
+{
+    font-size: 1rem;
+    float: left;
+    margin-left:2rem;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    color: #222222;
+
+}
+
+.tozihat
+{
+    float: right;
+    display: flex;
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-top: .5rem;
+}
+.tag-div
+{
+    display: flex;
+    margin-left: 3rem;
+}
+.tags
+{
+    padding: 1rem;
+    margin-left: .3rem;
+    font-size: .6rem;
+    display: flex;
+    background-color: #d0d0d0;
+    border-radius: 3rem;
+    
+}
+.lorem
+{
+    font-size: 1rem;
+    float: left;
+    margin: 5rem;
+    margin-top: 0rem;
+    direction: rtl;
+
+
+    
+}
+.opt
+{
+    margin-top: 0rem;
+    margin-right: 2rem;
+   height: 24rem;
+   width: 25rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid #bebebe;
+    float: right;
+    margin-bottom: 1rem;
+}
+.op
+{
+    width: 23rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid #bebebe;
+}
+.op-end
+{
+    width: 23rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ask
+{
+    margin-right: 3rem;
+    color: rgb(79, 79, 255);
+    margin-left: 10rem;
+}
+.answer
+{
+    direction: rtl;
+}
+.more-info
+{
+    height: 12rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+
+}
+.know-more
+{
+    margin-right: 2rem;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+}
+.bb-div
+{
+    display: flex;
+    height: 1.5rem;
+    width: 14rem;
+    border-bottom: 1px solid #bebebe
+
+
+}
+.bishtar
+{
+    float: left;
+    height: 3rem;
+    display: flex;
+ width: 30rem;
+    direction: rtl;
+
+
+}
+.takhalof
+{
+    font-size: .7rem;
+    margin-right: 0.5rem;
+    margin-top: 0.7rem;
+    display: flex;
+}
+.takhalof a
+{
+    color: black;
+}
+.more-cards
+{
+    margin-right: 2rem;
+    width: 26rem;
+    height: 2.2rem;
+    background-color: white;
+    border: 1px solid #bebebe;
+    border-radius: 0.3rem;
+    margin-top: 0.5rem;
+
+}
+.more-cards p
+{
+
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem;
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+.more-cards a
+{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.a-link
+{
+    text-decoration: none;
+}
+.a-link :hover
+{
+    background-color: #bebebe;
+}
+.moshabeh
+{
+    height: 12rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+
+    direction: rtl;
+
+}
+.agehi
+{
+    margin-right: 2rem;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    display: flex;
+}
+
+.more-like
+{
+    width: 26rem;
+    height: 8rem;
+    background-color: white;
+    border: 1px solid #bebebe;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 2rem;
+}
+.info-moshabeh
+{
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+}
+.data-moshabeh
+{
+    display: flex;
+    flex-direction: column;
+}
+.data-moshabeh p
+{
+    margin-top: 0rem;
+    font-size: 0.7rem;
+    margin-right: 1rem;
+    color: black;
+}
+.data-moshabeh h5
+{
+    margin-right: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+.loc-moshabeh
+{
+    width: 16rem;
+    height: 2rem;
+    margin-top: 2.7rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.loc-moshabeh p
+{
+    margin: 0rem;
+    color: blue;
+}
+.loooocation
+{
+    display: flex;
+    color: black;
+}
+.img-info
+{
+    border-radius: 1rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+.button-fix
+{
+background-color: #23b015;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-left: 6rem;
+    padding: 1rem 5rem;
+    border-radius: 0.5rem ;
+    color: black;
+
+}
+
